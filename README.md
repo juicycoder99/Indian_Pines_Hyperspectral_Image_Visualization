@@ -1,13 +1,13 @@
-# CS503 — Data Visualization — HW3
+# Indian Pines Hyperspectral Image Visualization
 
-Coursework for **Data Visualization (CS503)**, Department of Computer Science, Bishop's University.
+Visualizing, exploring, and dimensionality-reducing the Indian Pines AVIRIS hyperspectral scene with PCA and t-SNE.
 
 ## Hyperspectral data visualization — Indian Pines
 
 Visualizing and reducing the **Indian Pines** hyperspectral scene (AVIRIS sensor): a
 145 × 145 image with 200 spectral bands and 16 labelled land-cover classes.
 
-The solution is in [`HW3.ipynb`](HW3.ipynb).
+The implementation is in [`hyperspectral_visualization.ipynb`](hyperspectral_visualization.ipynb).
 
 ## What the notebook covers
 
@@ -30,14 +30,14 @@ The solution is in [`HW3.ipynb`](HW3.ipynb).
 
 ```bash
 pip install numpy scipy matplotlib scikit-learn spectral tqdm
-jupyter notebook HW3.ipynb
+jupyter notebook hyperspectral_visualization.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `HW3.ipynb` | Full solution |
-| `HW3.pdf` | Assignment description |
+| `hyperspectral_visualization.ipynb` | Full implementation and analysis |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
 | `Indian_pines_corrected.mat` | Hyperspectral data cube (145 × 145 × 200) |
 | `Indian_pines_gt.mat` | Ground-truth class labels |
